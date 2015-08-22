@@ -272,6 +272,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.composition.type=c2d \
     persist.hwc.mdpcomp.enable=true
 
+# Doze mode
+PRODUCT_PACKAGES += \
+    SensorsDoze
+
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
